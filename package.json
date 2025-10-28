@@ -1,0 +1,27 @@
+{
+  "name": "inventory_manager_serverless_chat",
+  "version": "1.0.0",
+  "description": "ready-to-deploy single-file serverless function (Node.js) that implements core server “chat brain” endpoints for integration with Nutrition_Management Airflow table",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Justin-von-Gortler/Inventory_Manager_Serverless_Chat.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Justin-von-Gortler/Inventory_Manager_Serverless_Chat/issues"
+  },
+  "homepage": "https://github.com/Justin-von-Gortler/Inventory_Manager_Serverless_Chat#readme",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.76.1",
+    "express": "^5.1.0",
+    "node-fetch": "^3.3.2"
+  }
+}
