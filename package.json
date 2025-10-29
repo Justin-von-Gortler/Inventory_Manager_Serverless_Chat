@@ -2,7 +2,7 @@
   "name": "inventory_manager_serverless_chat",
   "version": "1.0.0",
   "description": "ready-to-deploy single-file serverless function (Node.js) that implements core server “chat brain” endpoints for integration with Nutrition_Management Airflow table",
-  "main": "index.js",
+  "main": "api/index.js",
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
